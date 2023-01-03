@@ -7,7 +7,7 @@ from flask import Flask, request
 options = {'Statistics': 'Statistics by today', 'Ways': 'Ways by today', 'Positions': 'Positions by today',
            'URL': 'Open site', 'Languages': 'Languages comparison'}
 
-TOKEN = ('5905681814:AAG7pIHZs_afblZHPudSgsbqtes8fBQXrEc')
+TOKEN = ('xxxxxxxxxxxxxxxxxxxxxxxxxxxxx')
 bot = telebot.TeleBot(TOKEN)
 server = Flask(__name__)
 
